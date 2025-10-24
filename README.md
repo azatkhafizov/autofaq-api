@@ -8,7 +8,7 @@
 pip install autofaq-api
 ```
 
-Данный модуль умеет работать со всеми 3-мя API AutoFAD:
+Данный модуль умеет работать со всеми 3-мя API AutoFAQ:
 
 - External API
 - CRUD API
