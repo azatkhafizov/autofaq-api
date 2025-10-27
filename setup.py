@@ -8,7 +8,7 @@ def readme():
 
 setup(
   name='autofaq_api',
-  version='0.0.1',
+  version='0.0.7',
   author='AzatXafizof',
   author_email='hafizov.azat.m@gmail.com',
   description='Этот модуль умеет работать с 3-мя API AutoFaq: External API, CRUD API, QUERY API. Как синхронно так и асинхронно',
