@@ -21,7 +21,7 @@ pip install autofaq-api
 import asyncio
 from autofaq_api import AutoFaqCrud
 
-af_client = AutoFaqCrud('https://chat.autofaq.ai', 'user_token')
+af_conn = AutoFaqCrud('https://chat.autofaq.ai', 'user_token')
 result = af_conn.sync_get_services()
 print(result)
 
@@ -36,7 +36,7 @@ asyncio.run(main())
 import asyncio
 from autofaq_api import AutoFaqExternal
 
-af_client = AutoFaqExternal('https://chat.autofaq.ai', 'user_login', 'password', 'service_id')
+af_conn = AutoFaqExternal('https://chat.autofaq.ai', 'user_login', 'password', 'service_id')
 result = af_conn.sync_channel_get_file(channel_id, file_id)
 print(result)
 
